@@ -15,6 +15,14 @@ body {
     letter-spacing: .05rem;
 }
 
+p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 35px;
+}
+
 .bg-light {
     background-color: var(--color-light)!important;
 }
@@ -68,6 +76,31 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+}
+
+footer {
+    background-color: var(--color-dark-xx);
+    width: 100%;
+}
+
+footer .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+footer p {
+    font-size: 11px;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-wrapper div {
+    width: 80px;
+    height: 80px;
+    background: white;
+    margin: 40px 30px;
 }
 
 @media screen and (max-width:575.98px) {
