@@ -20,7 +20,7 @@ p {
     font-size: 16px;
     text-align: center;
     padding: 0 10px;
-    margin-bottom: 35px;
+    margin:0;
 }
 
 .bg-light {
@@ -92,8 +92,8 @@ footer .logo-wrapper {
 
 footer p {
     font-size: 11px;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 .logo-wrapper div {
@@ -103,13 +103,18 @@ footer p {
     margin: 40px 30px;
 }
 
+.row {
+    margin: 0;
+}
+
+
 @media screen and (max-width:575.98px) {
     .p-6 {
         padding: 2rem;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1199px) {
     .register-bg {
         min-height: 50vh;
     }
